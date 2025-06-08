@@ -1,4 +1,4 @@
-## E_commerce-SQL-Case-Study
+### E_commerce-SQL-Case-Study
 
 # **Context:**
 This business case focuses on the operations of Target in Brazil. Target is a premier U.S. retailer, focuses on delivering value, innovation, and an unmatched guest experience. This case study explores Target's e-commerce performance in Brazil, using a dataset of over 100,000 orders from 2016 to 2018, uncovering insights into:
@@ -8,12 +8,12 @@ This business case focuses on the operations of Target in Brazil. Target is a pr
   3. Customer behavior & geographic distribution
   4. Product performance & customer satisfaction
 
-# **Problem Statement:**
+## **Problem Statement:**
     Our objective is to analyze the provided dataset to uncover meaningful insights and deliver actionable 
     business recommendations. 
     The following steps outline the approach used to extract meaningful insights from the     
     dataset:
-    **Usual exploratory analysis steps:**
+  **Usual exploratory analysis steps:**
         1. Data type of all columns in the "customers" table.
         2. Get the time range between which the orders were placed.
         3. Count the Cities & States of customers who ordered during the given period.
@@ -51,31 +51,31 @@ This business case focuses on the operations of Target in Brazil. Target is a pr
            of delivery.
            (You can use the difference between the averages of actual & estimated delivery date to figure out 
            how fast the delivery was for each state.)
-    **Analysis based on the payments:**
+  **Analysis based on the payments:**
         1. Find the month on month no. of orders placed using different payment types.
         2. Find the no. of orders placed on the basis of the payment installments that have been paid.
 # **Tools and Databases used:**
     Google BigQuery
 # **Insights and Business Recommendations Summary:**
-    1. **Expand Logistics Infrastructure in Remote States:**
+  1. **Expand Logistics Infrastructure in Remote States:**
        States like RR, AC, and PB experience high freight costs and long delivery times.
        Investing in local warehouses or distribution hubs can reduce shipping costs and improve
        customer satisfaction.
-    2. **Leverage SP as a Strategic Fulfillment Hub:**
+  2. **Leverage SP as a Strategic Fulfillment Hub:**
        SP has high order density and the lowest average freight costs. Enhancing warehousing
        and fulfillment capabilities in this region can optimize nationwide logistics.
-    3. **Optimize Delivery Promises Using Data:**
+  3. **Optimize Delivery Promises Using Data:**
        States like AL consistently deliver ahead of estimated dates. Update estimated delivery
        algorithms to reflect actual performance for improved transparency and trust.
-    4. **Incentivize High-Value Regions with Targeted Promotions:**
+  4. **Incentivize High-Value Regions with Targeted Promotions:**
        States with high average order prices but fewer customers (e.g., PB, AL, AC) show
        potential for premium product targeting and personalized marketing strategies.
-    5. **Promote Afternoon Deals or Campaigns:**
+  5. **Promote Afternoon Deals or Campaigns:**
        Since the peak ordering window is in the afternoon, scheduling flash sales or marketing
        pushes during this time can capitalize on user behavior.
-    6.** Encourage Full Upfront Payments:**
+  6.** Encourage Full Upfront Payments:**
        Over 52,000 customers prefer one-time payments. Reinforcing this behavior with small
        incentives (e.g., cashback for full payment) can reduce transaction processing costs.
-    7. **Monitor and Enhance UPI Adoption:**
+  7. **Monitor and Enhance UPI Adoption:**
        UPI usage is rising steadily. Ensure seamless UPI integration and provide incentives for
        its use to align with Brazil’s digital payment evolution.
