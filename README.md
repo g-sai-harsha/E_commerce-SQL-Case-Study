@@ -14,9 +14,11 @@ This business case focuses on the operations of Target in Brazil. Target is a pr
     The following steps outline the approach used to extract meaningful insights from the     
     dataset *(Refer to the attached file for the SQL queries used in the analysis.)*:  
     **Usual exploratory analysis steps:**  
+    
           1. Data type of all columns in the "customers" table.  
           2. Get the time range between which the orders were placed.  
           3. Count the Cities & States of customers who ordered during the given period.  
+          
     **In-depth Exploration:**  
         1. Is there a growing trend in the no. of orders placed over the past years?  
         2. Can we see some kind of monthly seasonality in terms of the no. of orders being placed?  
